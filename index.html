@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sne Samal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <h1>Sne Samal</h1>
+                <div class="nav-links">
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="about">
+        <p>Penultimate year computer engineering undergraduate at Imperial College London. Strong interests in both software and hardware engineering, computer architecture, FPGAs and verification.</p>
+        <p>Currently building a healthcare application to be used by private general practices in the UK.</p>
+        <p class="external-links">
+            <a href="sne-samal-cv.pdf" target="_blank">Download My CV</a>
+            <a href="https://github.com/sne-samal" target="_blank">Github</a> 
+            <a href="https://linkedin.com/in/sne-samal" target="_blank">LinkedIn</a>
+        </p>
+    </div>
+
+    <div class="section" id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Programming Languages: C/C++, Python, System Verilog, RISCV Assembly, Bash, Dart</li>
+            <li>Design Software: Quartus, Vivado</li>
+            <li>Hardware Simulation and Verification: Verilator, Icarus Verilog, Cocotb</li>
+            <li>App Development: Flutter, Supabase</li>
+            <li>Data structures and algorithms</li>
+            <li>Bash and Python automation scripts</li>
+            <li>Git, Github</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </div>
+
+    <div class="section" id="projects">
+        <h2>Projects</h2>
+        <ul class="projects-list">
+            <li>
+                <a href="https://github.com/r0n1tr/HFT/tree/main" target="_blank">FPGA HFT</a>
+                <p>A hardware implementation of a high frequency trading (HFT) market maker and ordr book that uses a Avellaneda Stoickov market making model. Written in System Verilog, verified using Python and Cocotb, and plugged into a realistic NASDAQ simulation, written in Python</p>
+            </li>
+            <li>
+                <a href="https://github.com/sne-samal/FPGA-Ray-Tracing" target="_blank">FPGA Voxel Ray Tracing</a>
+                <p>Integer based voxel ray tracer, written in System Verilog, for the PYNQ Z1 board capable of traversing Octrees and regenerating scenes with modified camera positons and focal length, passed in from a Python GUI.</p>
+            </li>
+            <li>
+                <a href="https://github.com/sne-samal/C90-to-RISCV-Compiler" target="_blank">C90 to RISCV Compiler</a>
+                <p>A functional C90 to RISC-V assembly, in C++ with support for integers, floats, pointers, arrays, chars and structs. Added support for control-flow including if-else, for and while, enums, nested and recursive functions and the built-in sizeof.</p>
+            </li>
+            <li>
+                <a href="https://github.com/sne-samal/DotsApp" target="_blank">DotsApp</a>
+                <p>Real time chatting application utilising EC2 instance on AWS and a DE10-Lite board, recognising tilt gestures and button presses. Message history stored on DyanmoDB and GUI built with TKinter.</p>
+            </li>
+            <li>
+                <a href="https://github.com/sne-samal/RISCV-CPU" target="_blank">RISCV CPU Core</a>
+                <p>A functional multi-stage pipelined processor compliant with the RV32I 2.0 instruction set architecture, written in System Verilog, simulated and verified with C++ and Verilator.</p>
+            </li>
+            <!-- Add more projects as needed -->
+        </ul>
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p>Phone: <a href="tel:+447398892448">+447398892448</a></p>
+            <p>Email: <a href="mailto:sne.samal@gmail.com">sne.samal@gmail.com</a></p>
+            <p>Socials:
+                <a href="https://linkedin.com/in/sne-samal" target="_blank">LinkedIn</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
